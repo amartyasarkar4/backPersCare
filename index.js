@@ -11,21 +11,8 @@ app.use(bodyParser.urlencoded({extended:true}));
 var mongoose=require("mongoose");
 
 
-
-// mongoose.connect("mongodb+srv://amartyasarkar4:AmartyaSarkar4@cluster0.egyqx.mongodb.net/?retryWrites=true&w=majority",
-//     {useNewUrlParser:true,useUnifiedTopology: true},
-//     (res,err)=>{
-//         // console.log(res);
-//         // console.log(err);
-//     if(err){
-//         console.log("Success");
-//     }else{
-//         console.log("Fail to connect with mogoose");
-//     }
-// }
-// )
 const username = "amartyasarkar4";
-const password = "AmartyaSarkar4";
+const password = "";
 const cluster = "cluster0.egyqx";
 const dbname = "";
 
