@@ -13,7 +13,8 @@ var mongoose=require("mongoose");
 
 const username = "amartyasarkar4";
 const password = "";
-const cluster = "cluster0.egyqx";
+// const cluster = "cluster0.egyqx";
+const cluster="cluster0.s4tcl7b";
 const dbname = "";
 
 mongoose.connect(
